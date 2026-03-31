@@ -1,0 +1,57 @@
+body {
+    /* direction: rtl; */
+    text-align: right;
+}
+
+/* عكس الأعمدة */
+.row {
+    direction: rtl;
+}
+
+/* الأزرار */
+.btn {
+    text-align: center;
+}
+
+/* الجداول */
+.table {
+    direction: rtl;
+    text-align: center;
+}
+
+/* العناوين */
+h1, h2, h3 {
+    text-align: right;
+}
+
+th {
+    text-align: center;
+}
+.table th {
+    background-color: #d9534f;
+    color: white;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 15px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+
+.rtl-row {
+    direction: rtl;
+}
+
+.rtl-row > [class*="col-"] {
+    float: right;
+}
